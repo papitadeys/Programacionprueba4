@@ -1,0 +1,339 @@
+
+
+#navlist a {
+    float:left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#navlist {
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+}
+.navlist-right{
+    float:right;
+}
+
+.search input[type=text]{
+    width:280px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+.search{
+    float:right;
+    margin:8px;
+}
+.search button{
+    background-color: #000000;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+} 
+.btn{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: white;
+    box-shadow: 3px 3px 0px black;
+    padding: 0.5em 1em;
+}
+
+.active{
+    font-weight: bold;
+}
+
+#imagenRiotlog{
+    width: 45px;
+    height: 45px;
+    transform: translateY(-30%);
+}
+#logoRiotGames{
+    width: 55px;
+    height: 50px;
+    transform: translateY(-30%);
+}
+
+#imgtibers{
+    justify-content: space-around;
+    max-width: 1670px;
+    max-height: 800px;
+}
+
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.contenedor2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.centrado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.imagenes1{
+    text-align: center;
+    justify-content: center;
+    transform: translateY(-30%);
+}
+.imagenes2{
+    text-align: center;
+    justify-content: center;
+    transform: translateY(-30%);
+}
+#lollogo{
+    width: 430px;
+    height: 230px;
+}
+#tftlogo{
+    width: 430px;
+    height: 230px;
+}
+
+#wrziggs{
+    width: 430px;
+    height: 230px;
+}
+#lorkey{
+    width: 430px;
+    height: 230px;
+}
+#valorant{
+    width: 520px;
+    height: 320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    transform: translateY(-30%);
+}
+#riotforge{
+    width: 960px;
+    height: 520px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+
+h1{
+    text-align: center;
+}
+body{
+    margin: 0;
+    font-family: "Roboto";
+}
+
+li{
+    list-style: none;
+    margin-left: 1em;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.areyou{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    color:rgba(255, 255, 255, 0.986);
+    top: 76%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0 1em;
+}
+.nav-2{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: white;
+    box-shadow: 3px 3px 0px black;
+    padding: 0.5em 1em;
+}
+
+.buttonexplore {
+border: 1px solid #ff0000;
+padding: 10px;
+background-color: #ff0000; 
+color: #ffffff;
+text-decoration: none;
+font-family: 'Helvetica', sans-serif;
+border-radius: 50px;
+cursor: pointer;
+margin: auto;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+}
+
+
+
+.RiotForge{
+    font-family:fantasy;
+    color: white;
+    border-radius: 2%;
+    font-size: large;
+    border-color: #ff4747;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}.areyou {
+    font-family:fantasy;
+    background-color: #ff4747;
+    color: white;
+    border-radius: 2%;
+    font-size: large;
+    border-color: #ff4747;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.RiotForge{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    color:rgba(255, 255, 255, 0.986);
+    top: 82%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.textchico{
+    font-family:fantasy;
+    color: white;
+    border-radius: 2%;
+    font-size: large;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.textchico{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    position: absolute;
+    color:rgba(255, 255, 255, 0.986);
+    top: 89%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.areyou{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    position: absolute;
+    color:rgba(255, 255, 255, 0.986);
+    top: 75%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+
+.flechaseleccion {
+    position:relative;
+    
+}
+
+#navlist2 {
+    background-color: #3a3a3a;
+    position: absolute;
+    width: 100%;
+}
+#navlist2 a {
+    float:left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translateY(20%);
+}
+
+.navlist2-right{
+    float:right;
+}
+
+#imagee{
+    width: 45px;
+    height: 45px;
+}
+#imagenRiot{
+    width: 45px;
+    height: 45px;
+}
+
+#logolenguaje{
+    width: 20px;
+    height: 20px;
+    transform: translateY(120%);
+    transform: translateX(-7500%);
+}
+
+#navlist3 {
+    background-color: #3a3a3a;
+    position: absolute;
+    width: 100%;
+}
+#navlist3 a {
+    float:left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translateY(20%);
+}
+
+.navlist3-right{
+    float:right;
+}
